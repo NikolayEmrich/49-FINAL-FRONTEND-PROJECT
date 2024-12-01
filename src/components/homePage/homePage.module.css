@@ -1,0 +1,165 @@
+.weatherForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 85px;
+  padding-bottom: 60px;
+  gap: 15px;
+}
+
+.historyContent {
+  padding-top: 50px;
+}
+
+.weatherForm > input {
+  height: 48px;
+  width: 500px;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: bolder;
+  background: rgba(154, 156, 164, 0.25);
+  border: 1px solid rgb(212, 212, 212);
+  backdrop-filter: blur(2px);
+  cursor: text;
+}
+
+.weatherForm > input::placeholder {
+  padding-left: 13px;
+  color: rgba(255, 255, 255);
+}
+
+.weatherForm > button {
+  height: 48px;
+  width: 135px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: white;
+  background-color: #3c82c9;
+  border: none;
+  cursor: pointer;
+}
+
+.weatherForm > button:hover {
+  background-color: #1f4267;
+}
+
+.weatherFormForCity {
+  width: 650px;
+  height: 220px;
+  border: 1px solid rgb(101, 105, 130);
+  border-radius: 20px;
+  background: rgba(38, 50, 79, 0.5);
+  /* background-color: #122D49; */
+  /* background-color: rgba(255, 255, 255, 1); */
+  /* opacity: 0.65; */
+  color: rgb(255, 255, 255);
+  /* z-index: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 0px;
+  gap: 10px;
+  backdrop-filter: blur(2px);
+  margin-bottom: 20px;
+}
+
+.weatherFormForAnother {
+   display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+  gap: 200px;
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.weatherFormForApiError {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 0px;
+  font-size: 18px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.weatherFormForApiError > h1 {
+  font-size: 63px;
+  color: rgb(220, 102, 102);
+}
+
+.weatherFormForApiError > span {
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.weatherFormForAnother img {
+  width: 75px;
+}
+
+.weatherFormForAnother h1 {
+  font-size: 70px;
+}
+
+.weatherFormForCity span, h2 {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  /* z-index: 2; */
+}
+
+.weatherFormForButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+  padding-top: 10px;
+}
+
+.weatherFormForButton > button {
+  height: 48px;
+  width: 169px;
+  border-radius: 50px;
+  background: rgba(38, 50, 79, 0.3);
+  border: 1px solid rgb(227, 223, 223);
+  color: rgb(228, 225, 225);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.weatherFormForButton > button:hover {
+  background: rgba(38, 50, 79, 0.65);
+}
+
+.weatherDeleteAllButton > button {
+  height: 48px;
+  width: 650px;
+  border-radius: 50px;
+  font-size: 19px;
+  color: white;
+  background-color: #3c82c9;
+  border: none;
+  cursor: pointer;
+}
+
+.weatherDeleteAllButton > button:hover {
+  background-color: #1f4267;
+}
+
+.allPlace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 10px; */
+  /* background-color: blue; */
+}
+
+/*.content {
+  max-height: 700px;   Условие задачи: 700px
+  overflow: auto;
+  scrollbar-color: rgb(105, 128, 185) rgb(229, 248, 255);
+}*/
